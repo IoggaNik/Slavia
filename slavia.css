@@ -1,0 +1,105 @@
+.heading {
+    border: none;
+    background-color: rgb(75, 75, 75);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.heading h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(248, 246, 242);
+    font-size: 100px;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.viki {
+    border: none;
+    box-shadow: 0px 0px 4px 4px rgb(248, 246, 242);
+    margin-left: 450px;
+    margin-right: 455px;
+    padding-bottom: 30px;
+}
+
+.text {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+}
+
+.text .viki_head {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.countries {
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+
+.countries:hover {
+    text-decoration: underline;
+}
+
+summary {
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+details {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.flag_div {
+    border: none;
+    border-radius: 0.6rem;
+    height: 200px;
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.flag {
+    height: 170px;
+    width: 370px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.p_flag {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 568px) {
+    .heading {
+        padding-left: 20px;
+        width: 696px;
+    }
+
+    .viki {
+        margin-left: 12px;
+        width: 680px;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}
+
+.by_autor {
+    color: rgb(104, 103, 103);
+    font-family: 'Arial', sans-serif;
+    text-align: end;
+    position: relative;
+    top: 33px;
+    right: 12px;
+    font-size: small;
+}
