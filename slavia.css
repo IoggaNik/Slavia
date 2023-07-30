@@ -80,20 +80,6 @@ details {
     text-align: center;
 }
 
-@media (min-device-width: 320px) and (max-device-width: 568px) {
-    .heading {
-        padding-left: 20px;
-        width: 696px;
-    }
-
-    .viki {
-        margin-left: 12px;
-        width: 680px;
-        font-size: 30px;
-        padding-left: 10px;
-    }
-}
-
 .by_autor {
     color: rgb(104, 103, 103);
     font-family: 'Arial', sans-serif;
@@ -102,4 +88,61 @@ details {
     top: 33px;
     right: 12px;
     font-size: small;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .heading {
+        width: 667px;
+        margin: -8px;
+    }
+
+    .viki {
+        margin: 0;
+        width: 640px;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .viki {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .heading {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .viki {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-right: 120px;
+        margin-left: 120px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .viki {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-right: 300px;
+        margin-left: 300px;
+    }
 }
