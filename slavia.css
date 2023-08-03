@@ -146,3 +146,14 @@ details {
         margin-left: 300px;
     }
 }
+
+@media (min-width: 1662px) {
+    .viki {
+        padding: 10px;
+    }
+
+    .by_autor {
+        top: 11px;
+        right: 0;
+    }
+}
